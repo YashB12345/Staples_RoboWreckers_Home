@@ -374,7 +374,10 @@
 }
 
 .main__img--container {
-  text-align: center;
+  width: 50%;  /* Adjust the width of the container */
+  max-width: 500px;  /* Optional: limit the maximum width */
+  margin: 0 auto;  /* Center the image */
+  text-align: center;  /* Center the content inside the container */
 }
 
 .main__img--card {
