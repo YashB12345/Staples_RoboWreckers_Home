@@ -280,9 +280,9 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 90%;
+  height: 15%;
   z-index: 1;
-  width: 100%;
+  width: 15%;
   max-width: 1300px;
   padding: 0 50px;
 }
