@@ -376,6 +376,12 @@
 .main__img--container {
   text-align: center;
 }
+.main__img--responsive {
+  max-width: 100%; /* Ensures the image fits within its container */
+  height: auto;    /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional for rounded edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for a subtle shadow effect */
+}
 
 .main__img--card {
   margin: 10px;
