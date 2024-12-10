@@ -703,3 +703,8 @@
     width: 100%;
   }
 }
+.main__img--container img {
+  max-width: 100%;  /* Ensures the image is responsive */
+  width: 60%;  /* Adjust the percentage as needed */
+  height: auto;  /* Maintain aspect ratio */
+}
