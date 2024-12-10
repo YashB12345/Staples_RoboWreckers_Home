@@ -280,9 +280,9 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  height: 15%;
+  height: 90%;
   z-index: 1;
-  width: 15%;
+  width: 100%;
   max-width: 1300px;
   padding: 0 50px;
 }
@@ -374,10 +374,7 @@
 }
 
 .main__img--container {
-  width: 50%;  /* Adjust the width of the container */
-  max-width: 500px;  /* Optional: limit the maximum width */
-  margin: 0 auto;  /* Center the image */
-  text-align: center;  /* Center the content inside the container */
+  text-align: center;
 }
 
 .main__img--card {
@@ -705,9 +702,4 @@
     padding: 10px;
     width: 100%;
   }
-}
-.main__img--container img {
-  max-width: 100%;  /* Ensures the image is responsive */
-  width: 60%;  /* Adjust the percentage as needed */
-  height: auto;  /* Maintain aspect ratio */
 }
